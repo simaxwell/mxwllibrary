@@ -43,7 +43,7 @@ is_alphabetical <- function(word) {
   diffs <- diff(index)
 
   # Minuend will always be greater than subtrahend for words with letters in alphabetical order. Every difference will therefore be positive:
-  if (any(diffs >= 0)) {
+  if (all(diffs >= 0)) {
 
     alphabetical_lgl <- TRUE
 
