@@ -6,7 +6,9 @@ Authors@R:
     person("Simon", "Maxwell", , "simonjosephmaxwell@gmail.com", role = c("aut", "cre"))
 Description: Collection of random function I have made.
 Imports:
-    cli
+    cli (>= 3.6.3),
+    glue (>= 1.7.0),
+    lubridate (>= 1.9.3)
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

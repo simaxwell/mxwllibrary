@@ -3,4 +3,7 @@
 export(date2fy)
 export(date2py)
 export(is_alphabetical)
+export(print_nwd_statement)
 importFrom(cli,cli_abort)
+importFrom(glue,glue_collapse)
+importFrom(lubridate,wday)
